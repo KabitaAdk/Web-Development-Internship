@@ -1,0 +1,91 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  display: flex;
+}
+
+.sidebar {
+  width: 300px;
+  background: #2c3e50;
+  color: #ffffff;
+  padding: 12px;
+}   
+.brand {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}  
+ul {
+    list-style: none;
+    padding: 0;
+}
+li {
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+li:hover {
+    background: #34495e;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    background: #f4f6f9;
+    border-bottom: 1px solid #ddd;
+}
+.action {
+    display: flex;
+    gap: 10px;
+}
+.btn {
+    padding: 8px 16px;
+    margin: 25px;
+    background: #34495e;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn:hover {
+    background: #000b13;
+}
+.main {
+    padding: 20px;
+    flex: 1;
+    background: #f4f6f9;
+}
+.cards {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+    flex-direction: row;
+    flex-wrap: wrap;
+} 
+.card {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    flex: 2;
+}
+.section1 {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+table, th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
